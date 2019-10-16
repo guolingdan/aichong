@@ -5,12 +5,11 @@ import App from './App'
 import router from './router'
 
 Vue.config.productionTip = false
-// 引入mint-ui
-import MintUI from "mint-ui"
-import "mint-ui/lib/style.css"
-Vue.use(MintUI)
+
 // 引入iconfont.css
 import "./font/iconfont.css"
+// 引入公共css
+import "./assets/common.css"
 // 引入axios
 import axios from "axios"
 axios.defaults.baseURL="http://127.0.0.1:4000/"
